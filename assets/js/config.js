@@ -25,7 +25,13 @@ function getConfigs () {
 			displayName: 'Compare Products',
 			urlAppender: 'CompareProducts',
 			icon: 'fa fa-columns'
+		},
+		{
+			displayName: 'Book Management',
+			urlAppender: 'BookManagement',
+			icon: 'fa fa-book'
 		}
+
 	]
 	var baseUrl = 'https://mdsadique2.github.io/';
 	var configsToReturn = [];
